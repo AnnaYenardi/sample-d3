@@ -1,0 +1,42 @@
+body {
+    font-family: 'Nunito', Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+h3 {
+    font-size: 1.3rem;
+}
+
+button {
+    font-family: 'Nunito', Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: medium;
+    width: 100%;
+    margin-top: 20px;
+    padding: 7px 11px 7px 11px;
+    background-color: chocolate;
+    color: white;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+}
+
+#input-panel {
+    position: absolute;
+    top: 0px;
+    height: 100vh;
+    width: 320px;
+    padding: 40px 40px 20px 40px;
+    background-color: #f6f6f6;
+    box-shadow: 3px 0px 10px 6px rgba(0,0,0,0.2);
+}
+
+#canvas-box {
+    position: absolute;
+    top: 20px;
+    left: 430px;
+    height: 800px;
+    width: 800px;
+}
